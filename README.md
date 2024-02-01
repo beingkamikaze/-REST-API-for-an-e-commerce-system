@@ -53,16 +53,20 @@ in body pass:
 ## Create a New variant for a product [POST][/api/products/:productId/variants]
 
 In Body-Raw-Json pass:
-
+```json
 {
   "name": "New Variant UPDATED for mirrar",
   "SKU": "NV1",
   "additionalCost": 5,
   "stockCount": 50000
 }
+```
 
 In params pass:
+```
 productId : 65bbfdf420036076af06ace9 // or refer to ecomm.products.api for refernce
+
+```
 
    
 ## Search products by name, decription or Variant name [GET][/api/products/search]
