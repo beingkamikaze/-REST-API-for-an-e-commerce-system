@@ -19,3 +19,9 @@ This is a simple Node.js and MongoDB-based REST API for an e-commerce system.
 3. RUN NPM install
 
 ## To start the application run npm start
+
+## API REFERNCE
+
+1. hdu
+2. ndkns:
+   
