@@ -72,25 +72,26 @@ productId : 65bbfdf420036076af06ace9 // or refer to ecomm.products.api for refer
 ## Search products by name, decription or Variant name [GET][/api/products/search]
 
 In query Pass:
+```
 
 q = Example Product computer or This is an example product computer or desktop
-
+```
 ## Update a Product [PUT][/api/products/:productId]
 
 In Body-Raw-JSON Pass:
-
+```json
 {
   "name": "Updated Product Name",
   "description": "Updated product description",
   "price": 60
 }
-
+```
 In params pass:
-
+```
 productId : 65bbfdf420036076af06ace9 // or refer to ecomm.products.api for refernce
-
+```
 ## Update a variant for a product [PUT][/api/products/:productId/variants/:variantId]
-
+```json
 In Body-Raw-JSON Pass : 
 
 {
@@ -98,20 +99,23 @@ In Body-Raw-JSON Pass :
   "additionalCost": 20,
   "stockCount": 80
 }
-
+```
+```
 In params pass:
 
 productId : 65bbfe7520036076af06acf9 // or refer to ecomm.products.api for refernce
 variantId : 65bbfe7520036076af06acfb // or refer to ecomm.products.api for refernce
-
+```
 ## Delete a Product [DELETE][/api/products/:productId]
 
 In params pass:
+```
 productId : 65bbfe1320036076af06aced // or refer to ecomm.products.api for refernce
-
+```
 ## Delete a Variant of product [DELETE][/api/products/:productId/variants/:variantId]
-
+```
 In params pass:
 
 productId : 65bbfe7520036076af06acf9 // or refer to ecomm.products.api for refernce
 variantId : 65bbfe7520036076af06acfb // or refer to ecomm.products.api for refernce
+```
