@@ -22,7 +22,7 @@ This is a simple Node.js and MongoDB-based REST API for an e-commerce system.
 
 # API REFERNCE
 
-##  Create a new Product
+##  Create a new Product [/api/products]
 in body pass:
 
 {
@@ -44,5 +44,22 @@ in body pass:
     }
   ]
 }
+
+## retrieve products [/api/products]
+
+
+## Create a New variant for a product [/api/products/:productId/variants]
+
+In Body-Raw-Json pass:
+
+{
+  "name": "New Variant UPDATED for mirrar",
+  "SKU": "NV1",
+  "additionalCost": 5,
+  "stockCount": 50000
+}
+
+In params pass:
+productId : 65bbfdf420036076af06ace9 // or refer to ecomm.products.api for refernce
 
    
