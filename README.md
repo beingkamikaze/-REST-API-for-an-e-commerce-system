@@ -20,8 +20,29 @@ This is a simple Node.js and MongoDB-based REST API for an e-commerce system.
 
 ## To start the application run npm start
 
-## API REFERNCE
+# API REFERNCE
 
-1. hdu
-2. ndkns:
+##  Create a new Product
+in body pass:
+
+{
+  "name": "mirar product test",
+  "description": "This is an example product test for mirar",
+  "price": 50,
+  "variants": [
+    {
+      "name": "test for product",
+      "SKU": "V1",
+      "additionalCost": 10,
+      "stockCount": 100
+    },
+    {
+      "name": "Variant 2 mirrar",
+      "SKU": "V2",
+      "additionalCost": 15,
+      "stockCount": 50
+    }
+  ]
+}
+
    
