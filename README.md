@@ -119,3 +119,5 @@ In params pass:
 productId : 65bbfe7520036076af06acf9 // or refer to ecomm.products.api for refernce
 variantId : 65bbfe7520036076af06acfb // or refer to ecomm.products.api for refernce
 ```
+
+<mark style="background-color: #FFFF00">Refer to ecomm.products.api file for manually testing if in case any particular API fails</mark>
