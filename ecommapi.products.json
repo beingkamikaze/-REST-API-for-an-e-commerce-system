@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "65bbf1a46cd11a16d84a3142"
+  },
+  "name": "product test1",
+  "description": "This is an example product test 1",
+  "price": 50,
+  "variants": [
+    {
+      "name": "Variant 1 test1",
+      "SKU": "V1",
+      "additionalCost": "10",
+      "stockCount": "100",
+      "_id": {
+        "$oid": "65bbf1a46cd11a16d84a3143"
+      }
+    },
+    {
+      "name": "Variant 2 test1",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbf1a46cd11a16d84a3144"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bbf3b56cd11a16d84a314a"
+  },
+  "name": "Example Product test4",
+  "description": "This is an example product test4",
+  "price": 50,
+  "variants": [
+    {
+      "name": "Updated Variant Name hahahah",
+      "additionalCost": "20",
+      "stockCount": "80",
+      "_id": {
+        "$oid": "65bbf995307d8a82e8059c77"
+      }
+    },
+    {
+      "name": "Variant 2 test 4",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbf3b56cd11a16d84a314c"
+      }
+    },
+    {
+      "name": "New Variant",
+      "SKU": "NV1",
+      "additionalCost": "5",
+      "stockCount": "50000",
+      "_id": {
+        "$oid": "65bbf65a6cd11a16d84a315d"
+      }
+    },
+    {
+      "name": "New Variant UPDATED",
+      "SKU": "NV1",
+      "additionalCost": "5",
+      "stockCount": "50000",
+      "_id": {
+        "$oid": "65bbf6e36cd11a16d84a3163"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "65bbfdf420036076af06ace9"
+  },
+  "name": "Example Product mobile",
+  "description": "This is an example product mobile",
+  "price": 50,
+  "variants": [
+    {
+      "name": "keypad",
+      "SKU": "V1",
+      "additionalCost": "10",
+      "stockCount": "100",
+      "_id": {
+        "$oid": "65bbfdf420036076af06acea"
+      }
+    },
+    {
+      "name": "touchscreen",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbfdf420036076af06aceb"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bbfe1320036076af06aced"
+  },
+  "name": "Example Product computer",
+  "description": "This is an example product computer",
+  "price": 50,
+  "variants": [
+    {
+      "name": "laptop",
+      "SKU": "V1",
+      "additionalCost": "10",
+      "stockCount": "100",
+      "_id": {
+        "$oid": "65bbfe1320036076af06acee"
+      }
+    },
+    {
+      "name": "desktop",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbfe1320036076af06acef"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bbfe2b20036076af06acf1"
+  },
+  "name": "Example Product human",
+  "description": "This is an example product human",
+  "price": 50,
+  "variants": [
+    {
+      "name": "men",
+      "SKU": "V1",
+      "additionalCost": "10",
+      "stockCount": "100",
+      "_id": {
+        "$oid": "65bbfe2b20036076af06acf2"
+      }
+    },
+    {
+      "name": "women",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbfe2b20036076af06acf3"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bbfe4d20036076af06acf5"
+  },
+  "name": "Example Product shirt",
+  "description": "This is an example product shirt",
+  "price": 50,
+  "variants": [
+    {
+      "name": "full",
+      "SKU": "V1",
+      "additionalCost": "10",
+      "stockCount": "100",
+      "_id": {
+        "$oid": "65bbfe4d20036076af06acf6"
+      }
+    },
+    {
+      "name": "half",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbfe4d20036076af06acf7"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65bbfe7520036076af06acf9"
+  },
+  "name": "Example Product developer",
+  "description": "This is an example product developer",
+  "price": 50,
+  "variants": [
+    {
+      "name": "frontend",
+      "SKU": "V1",
+      "additionalCost": "10",
+      "stockCount": "100",
+      "_id": {
+        "$oid": "65bbfe7520036076af06acfa"
+      }
+    },
+    {
+      "name": "backend",
+      "SKU": "V2",
+      "additionalCost": "15",
+      "stockCount": "50",
+      "_id": {
+        "$oid": "65bbfe7520036076af06acfb"
+      }
+    }
+  ],
+  "__v": 0
+}]
