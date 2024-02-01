@@ -120,4 +120,4 @@ productId : 65bbfe7520036076af06acf9 // or refer to ecomm.products.api for refer
 variantId : 65bbfe7520036076af06acfb // or refer to ecomm.products.api for refernce
 ```
 
-<mark style="background-color: #FFFF00">Refer to ecomm.products.api file for manually testing if in case any particular API fails</mark>
+``If any particular API fails for given cases, you can refer to the ecomm.products.api file for manual testing. This file contains detailed schema and data collection for testing each API.``
