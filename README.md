@@ -22,7 +22,7 @@ This is a simple Node.js and MongoDB-based REST API for an e-commerce system.
 
 # API REFERNCE
 
-##  Create a new Product [/api/products]
+##  Create a new Product [POST][/api/products]
 in body pass:
 
 {
@@ -45,10 +45,10 @@ in body pass:
   ]
 }
 
-## retrieve products [/api/products]
+## retrieve products [GET][/api/products]
 
 
-## Create a New variant for a product [/api/products/:productId/variants]
+## Create a New variant for a product [POST][/api/products/:productId/variants]
 
 In Body-Raw-Json pass:
 
@@ -63,3 +63,49 @@ In params pass:
 productId : 65bbfdf420036076af06ace9 // or refer to ecomm.products.api for refernce
 
    
+## Search products by name, decription or Variant name [GET][/api/products/search]
+
+In query Pass:
+
+q = Example Product computer or This is an example product computer or desktop
+
+## Update a Product [PUT][/api/products/:productId]
+
+In Body-Raw-JSON Pass:
+
+{
+  "name": "Updated Product Name",
+  "description": "Updated product description",
+  "price": 60
+}
+
+In params pass:
+
+productId : 65bbfdf420036076af06ace9 // or refer to ecomm.products.api for refernce
+
+## Update a variant for a product [PUT][/api/products/:productId/variants/:variantId]
+
+In Body-Raw-JSON Pass : 
+
+{
+  "name": "Updated Variant Name for mirrar",
+  "additionalCost": 20,
+  "stockCount": 80
+}
+
+In params pass:
+
+productId : 65bbfe7520036076af06acf9 // or refer to ecomm.products.api for refernce
+variantId : 65bbfe7520036076af06acfb // or refer to ecomm.products.api for refernce
+
+## Delete a Product [DELETE][/api/products/:productId]
+
+In params pass:
+productId : 65bbfe1320036076af06aced // or refer to ecomm.products.api for refernce
+
+## Delete a Variant of product [DELETE][/api/products/:productId/variants/:variantId]
+
+In params pass:
+
+productId : 65bbfe7520036076af06acf9 // or refer to ecomm.products.api for refernce
+variantId : 65bbfe7520036076af06acfb // or refer to ecomm.products.api for refernce
