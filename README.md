@@ -25,6 +25,7 @@ This is a simple Node.js and MongoDB-based REST API for an e-commerce system.
 ##  Create a new Product [POST][/api/products]
 in body pass:
 
+```json
 {
   "name": "mirar product test",
   "description": "This is an example product test for mirar",
@@ -44,6 +45,7 @@ in body pass:
     }
   ]
 }
+```
 
 ## retrieve products [GET][/api/products]
 
