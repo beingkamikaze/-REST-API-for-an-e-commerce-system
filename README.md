@@ -2,6 +2,12 @@
 
 This is a simple Node.js and MongoDB-based REST API for an e-commerce system.
 
+## Postman collection
+
+```bash
+https://www.postman.com/beingkamikaze/workspace/ecommapiworkspace/collection/18544750-1cdb5af9-a654-464f-a297-e1141cd47f8f?action=share&creator=18544750
+```
+
 ## Prerequisites
 
 - Node.js 
